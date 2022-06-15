@@ -12,10 +12,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
-class MyclassjournalApplicationTests {
+class MyClassJournalApplicationTests {
 
     @Autowired
     IJournalService journalService;
+
 
     @Test
     void contextLoads() {
